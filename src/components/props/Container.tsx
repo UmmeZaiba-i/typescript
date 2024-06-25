@@ -1,4 +1,5 @@
 //Styling Props - pass style in as props
+
 type ContainerProps ={
     styles: React.CSSProperties
 }

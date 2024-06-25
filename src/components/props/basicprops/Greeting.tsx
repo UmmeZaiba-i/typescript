@@ -1,5 +1,5 @@
 //TYPING PROPS
-type GreetProps = {
+type GreetProps = { 
     name: string;
     workingHours?: number;  //question mark means optional type 
     isLoggedin: boolean;

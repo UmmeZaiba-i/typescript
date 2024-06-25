@@ -7,12 +7,12 @@ const Status = (props:StatusProps) => {
     let message;
     if(props.status === 'loading'){
         message = 'Loading'
-    }else if( props.status ==='success'){
+    } else if( props.status ==='success') {
         message = 'data Fetched Succesfully'
-    } else if( props.status === 'error'){
+    } else if( props.status === 'error') {
         message ='error while fetching data'
-    }
-    
+    } 
+  
   return (
     <div>
       <h4>Status - {message}</h4>
