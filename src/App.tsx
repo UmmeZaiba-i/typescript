@@ -1,4 +1,13 @@
 import './App.css';
+// import { UserContextProvider } from './components/context/UserContext';
+// import { User } from './components/context/User';
+// import { Profile } from './components/auth/Profile';
+// import { Private } from './components/auth/Private';
+// import { List } from './components/generics/List';
+// import { RandomNumber } from './components/restriction/RandomNumber';
+import { Toast } from './components/templateLiteral/Toast';
+// import { ThemeContextProvider } from './components/context/ThemeContext';
+// import { Box } from './components/context/Box';
 // import Container from './components/props/Container';
 // import Button from './components/props/eventprops/Button';
 // import Input from './components/props/eventprops/Input';
@@ -10,6 +19,7 @@ import './App.css';
 // import Heading from './components/props/advanceprops/Heading';
 // import Oscar from './components/props/advanceprops/Oscar';
 function App() {
+
   // const personName = {
   //   first: 'Umme',
   //   last : 'Zaiba',
@@ -23,6 +33,32 @@ function App() {
 
   return (
     <div className="App">
+      <Toast position='center'/>
+      {/* <RandomNumber value={10} isPositive /> */}
+      {/* <List
+        items={['Batman', 'Superman', 'Wonder Woman']}
+        onClick={(item) => console.log(item)}
+      />
+      <List
+        items={[1, 2, 3]}
+        onClick={(item) => console.log(item)}
+      /> */}
+      {/* <List
+        items={[
+          { id :1, first: 'Umme', last: 'Zaiba' },
+          { id :2, first: 'Bruce', last: 'Wayne' },
+          { id :3, first: 'Lily', last: 'James' },
+          
+        ]}
+        onClick={(item) => console.log(item)}
+      /> */}
+      {/* <Private isloggedIn={true} component={Profile}/> */}
+      {/* <UserContextProvider>
+        <User/>
+      </UserContextProvider> */}
+      {/* <ThemeContextProvider>
+        <Box/>
+      </ThemeContextProvider> */}
       {/* <Container styles={{ padding: '1rem', border: '1px solid blue'}}/> */}
       {/* <Button handleClick = {(event, id)=> {
         console.log("Button Clicked", event, id);
