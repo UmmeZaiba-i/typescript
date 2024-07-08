@@ -3,7 +3,7 @@ import { theme } from './theme';
 
 type ThemeContextProviderProps ={
     children: React.ReactNode
-}
+} 
 export const ThemeContext =createContext(theme)
 // Creating a Provider Component:
 // ThemeContextProvider is a functional component that wraps its children with ThemeContext.Provider.
